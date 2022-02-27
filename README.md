@@ -10,11 +10,11 @@ Please find below the steps to configure and run the Question2-JabaTalks Automat
 
 1. Import the Q2_JabaTalks Project in your IDE.
 2. The required JAR files are present in the Selenium JAR files folder.
-  a. Add the JAR files in the Project_ClassPath.
+  	a. Add the JAR files in the Project_ClassPath.
 4. The various drivers to launch web browser are present in the Drivers folder.
 5. COnfiguration - I have configured this project through Properties file
 	a. Prop.Properties file contains the configuration to execute the code - browser selection, driver location, url.
-  b. Copy the location of drivers from Drivers folder and paste it as a value for 'key=chromeDriverLocation/firefoxDriverLocation/EdgeDriverLocation'.
+  	b. Copy the location of drivers from Drivers folder and paste it as a value for 'key=chromeDriverLocation/firefoxDriverLocation/EdgeDriverLocation'.
 6. Page Object Model has been implemented in this code.
 8. Input data is being read by Excel file which is located in Resources folder with ReadExcel filename.
 9. TestNG library is used to run the testcases.
